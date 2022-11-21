@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Page - A practice on CSS Layout and Positioning</title>
+  </head>
+
+  <body>
+
+    <div id="mainbody">
+      <!-- Header section displaying picture, name and statement about me-->
+      <div id="header">
+        <img id="myphoto" src="images/myphoto.jpg" alt="myphoto" />
+        <div id="headertext">
+          <h1>Nurat Lawal</h1>
+          <h4>Educator, Graphic Designer, Trainee Web Developer</h4>
+          <p>
+            A go-getter with a passion for excellence. I go out of my way to
+            surprise myself at the end of every project. My goal is to see a
+            problem solved and a happy client, whoever they may be.
+          </p>
+        </div>
+      </div>
+
+      <a href="#" id="top">Back to Top</a>
+
+      <!-- Middle section showing more about myself and my skills, implements positioning-->
+      <div id="midbody">
+        <div class="about">
+          <p>
+            Nurat is a tech-passionate individual with a background in Computer
+            Science. She has worked for years as an ICT/Data Processing teacher
+            and presently working as a freelance graphic designer. She is a
+            creative, super responsive and detail-oriented Canva Designer who
+            offers quality service to her clients with quick turnaround time.
+            She specialises in marketing and advertising designs.
+          </p>
+          <p>
+            Nurat appreciates and strives for personal development. She has
+            always dreamt of an opportunity to build a career in tech. She is
+            interested in solving real life problems and hopes that her present training at
+            Stutern would present that opportunity. She is looking forward to becoming an
+            accomplished backend web developer in the near future.
+          </p>
+        </div>
+
+      <!-- A group of dividers between the summary and skills section -->
+        <div class="divider"></div>
+        <div class="divider" style="top: 90px"></div>
+        <div class="divider" style="top: 160px"></div>
+        <div class="divider" style="top: 230px"></div>
+
+      <!-- Skills section-->
+        <div id="skills">
+          <p class="heading">SKILLS</p>
+          <ul>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+              <li>PYTHON</li>
+            </ul>
+            <ul>
+              <li>FLYER DESIGN</li>
+              <li>BROCHURE DESIGN</li>
+              <li>EBOOK DESIGN</li>
+            </ul>
+            <ul>
+              <li>CONTENT WRITING</li>
+              <li>PROOFREADING AND EDITING</li>
+            </ul>
+            <ul>
+              <li>COMMUNICATION</li>
+              <li>PROBLEM SOLVING</li>
+              <li>CRITICAL THINKING</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Implementing flex and grid layout while showcasing my graphic design projects-->
+      <div class="heading" style="margin-top: 100px; opacity: 0.8">
+        <p>MY RECENT PROJECTS</p>
+      </div>
+      <div id="projects">
+
+        <!-- The first set of projects-->
+        <div id="projects1">
+          <div class="graphics">
+            <h3 class="graphic-caption">LOGOS</h3>
+            <img src="images/lammy.png" alt="lammy logo" />
+            <img src="images/halogen.png" alt="halogen logo" />
+            <img src="images/surekeys.png" alt="surekeys logo" />
+            <img src="images/superbites.png" alt="superbites logo" />
+          </div>
+
+          <div class="graphics">
+            <h3 class="graphic-caption">FLYERS</h3>
+            <img src="images/feedah-chops.jpg" alt="feedah flyer" />
+            <img src="images/Ramadan-sales.jpg" alt="feedah Ramadan sales" />
+            <img src="images/fibroid-awareness.webp" alt="sfibroid treatment flyer" />
+            <img src="images/ponmo.webp" alt="ponmo sales flyer" />
+          </div>
+
+          <div class="graphics miniflyers">
+            <h3 class="graphic-caption">MINI FLYERS</h3>
+            <img src="images/topmide.png" alt="topmide flyer" />
+            <img src="images/halogen-flyer.png" alt="halogen flyer" />
+            <img src="images/surefit.png" alt="surefit flyer" />
+            <img src="images/iru-flyer.png" alt="iru-obe flyer" />
+          </div>
+        </div>
+        <!-- The second set of projects, implements the scroll view-->
+        <div id="projects2">
+          <div class="graphics" class="graphics2">
+            <h3 class="graphic-caption">PRODUCT LABELS</h3>
+            <img src="images/feedah-yoghurt.png" alt="feedah drinks" />
+            <img src="images/zuriq.png" alt="zuriq snacks" />
+            <img src="images/bag.png" alt="As&N bag" />
+            <img src="images/cap.png" alt="As&N cap" />
+          </div>
+          <div class="graphics" class="graphics2">
+            <h3 class="graphic-caption">PRINTS</h3>
+            <img src="images/ebook1.jpg" alt="bloom pregnancy ebook" />
+            <img src="images/ebook2.jpg" alt="bloom labour ebook" />
+            <img src="images/yearbook.png" alt=" Riyad yearbook" />
+            <img src="images/invitation-card.png" alt="nikkah invitation" />
+          </div>
+
+          <div class="graphics">
+            <h3 class="graphic-caption">MORE</h3>
+            <img src="images/shopping-bag.png" alt="As&N label bag" />
+            <img src="images/sticker.png" alt="feedah sticker" />
+            <img src="images/badge.png" alt="school badge" />
+            <img src="images/brochure.png" alt="bloom brochure" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer section-->
+      <div id="footer">
+        <h3>LET'S CONNECT</h3>
+        <div id="icons-line">
+          <a href="https://instagram.com/as_nuyela"
+            ><img src="images/instagram-icon.png" alt="instagram"
+          /></a>
+          <a href="https://www.facebook.com/nurat.lawal.14"
+            ><img src="images/facebook-icon.png" alt="facebook"
+          /></a>
+          <a href="https://www.linkedin.com/in/nurat-lawal-380a24226"
+            ><img src="images/linkedin-icon.png" alt="linkedin"
+          /></a>
+          <a href="https://twitter.com/AsNuyela?t=KuA1FdslZFF9meKaQ3Te7Q&s=09"
+            ><img src="images/twitter-icon.png" alt="twitter"
+          /></a>
+          <a href="https://github.com/NYLawal" id="git"
+            ><img src="images/github-icon.png" alt="github"
+          /></a>
+        </div>
+        <!-- Implementing fixed positioning and z-index -->
+        <div id="gitconnect">
+          <a href="https://github.com/NYLawal" title="see more"
+            ><img src="images/github-icon.png" alt="github connect"
+          /></a>
+        </div>
+
+        <div id="chat">
+          <a href="https://wa.me/+2348059180499" title="chat me"
+            ><img src="images/whatsapp-icon.png" alt="whatsapp chat"
+          /></a>
+        </div>
+      </div> <!-- End of footer-->
+    </div>
+  </body>
+</html>
